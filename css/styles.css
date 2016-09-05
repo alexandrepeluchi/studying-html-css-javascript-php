@@ -1,0 +1,26 @@
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bag {
+  background: url(../img/sacola.png) no-repeat top right;
+
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+}
+
+.options-menu ul {
+  font-size: 15px;
+}
+
+.options-menu a {
+  color: #003366;
+}
