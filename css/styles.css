@@ -1,6 +1,9 @@
 body {
   color: #333333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -42,4 +45,51 @@ header {
 .options-menu ul li {
   display: inline;
   margin-left: 20px;
+}
+
+.highlights {
+  margin-top: 10px;
+}
+
+.search input {
+  vertical-align: middle;
+}
+
+.search input[type=search] {
+  width: 170px;
+}
+
+.departaments-menu {
+  clear: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search,
+.departaments-menu {
+  background-color: #DCDCDC;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-right: 10px;
+  width: 230px;
+
+  float: left;
+}
+
+.search h2,
+.search form,
+.departaments-menu h2 {
+  margin: 10px;
+}
+
+.departaments-menu li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.departaments-menu a {
+  color: #333333;
+  text-decoration: none;
 }
