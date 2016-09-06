@@ -3,9 +3,13 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+header {
+  position: relative;
+}
+
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 940px;
 }
 
 .bag {
@@ -13,8 +17,18 @@ body {
 
   font-size: 14px;
   padding-right: 35px;
+  padding-bottom: 8px;
   text-align: right;
   width: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.options-menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .options-menu ul {
@@ -23,4 +37,9 @@ body {
 
 .options-menu a {
   color: #003366;
+}
+
+.options-menu ul li {
+  display: inline;
+  margin-left: 20px;
 }
