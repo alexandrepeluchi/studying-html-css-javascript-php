@@ -17,7 +17,7 @@ header {
 
   font-size: 14px;
   padding-right: 35px;
-  padding-bottom: 8px;
+  padding-top: 8px;
   text-align: right;
   width: 140px;
   position: absolute;
@@ -56,14 +56,14 @@ header {
   width: 170px;
 }
 
-.departaments-menu {
+.departments-menu {
   clear: left;
   margin-top: 10px;
   padding-bottom: 10px;
 }
 
 .search,
-.departaments-menu {
+.departments-menu {
   background-color: #DCDCDC;
   font-weight: bold;
   text-transform: uppercase;
@@ -76,17 +76,17 @@ header {
 
 .search h2,
 .search form,
-.departaments-menu h2 {
+.departments-menu h2 {
   margin: 10px;
 }
 
-.departaments-menu li {
+.departments-menu li {
   background-color: white;
   margin-bottom: 1px;
   padding: 5px 10px;
 }
 
-.departaments-menu a {
+.departments-menu a {
   color: #333333;
   text-decoration: none;
 }
