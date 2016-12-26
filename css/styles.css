@@ -17,10 +17,12 @@ header {
     font-size: 14px;
     padding-right: 35px;
     padding-top: 8px;
+    padding-bottom: 0;
     text-align: right;
     width: 140px;
+
     position: absolute;
-    top: 0;
+    top: 18px;
     right: 0;
 }
 

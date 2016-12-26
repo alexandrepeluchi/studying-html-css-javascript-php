@@ -6,6 +6,9 @@ body {
     width: 940px;
 }
 
+header {
+  position: relative;
+}
 #title {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
