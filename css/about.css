@@ -3,12 +3,16 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 940px;
 }
 
 #title {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
+}
+
+h1 {
+  padding: 10px;
 }
 
 h2 {
@@ -42,6 +46,5 @@ figcaption {
 
 #pelho-family {
     float: right;
-    ;
     margin: 0 0 10px 10px;
 }
