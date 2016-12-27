@@ -10,6 +10,17 @@ header {
   position: relative;
 }
 
+p:first-letter {
+  font-weight: bold;
+}
+p::first-line {
+  font-variant: small-caps;
+}
+
+h1 + p {
+  text-indent: 0;
+}
+
 #title {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
@@ -40,6 +51,10 @@ figure {
 figcaption {
     font-style: italic;
     margin-top: 10px;
+}
+
+.bag {
+  margin: 0 !important;
 }
 
 #distribution-center {
