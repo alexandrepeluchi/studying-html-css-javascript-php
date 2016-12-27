@@ -83,6 +83,10 @@ header {
   background-color: #DCDCDC;
 }
 
+.departments-menu li li a:before {
+  content: '- ';
+}
+
 .search, .departments-menu {
     background-color: #DCDCDC;
     font-weight: bold;
