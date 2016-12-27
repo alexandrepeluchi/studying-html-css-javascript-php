@@ -71,6 +71,18 @@ header {
     padding-bottom: 10px;
 }
 
+.departments-menu li ul {
+  display: none;
+}
+
+.departments-menu li:hover ul {
+  display: block;
+}
+
+.departments-menu ul ul li {
+  background-color: #DCDCDC;
+}
+
 .search, .departments-menu {
     background-color: #DCDCDC;
     font-weight: bold;
