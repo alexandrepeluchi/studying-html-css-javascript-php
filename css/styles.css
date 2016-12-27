@@ -116,6 +116,12 @@ header {
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.panel h2 {
+  text-shadow: 3px 3px 2px #FFF;
 }
 
 .panel h2:before {
