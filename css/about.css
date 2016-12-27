@@ -9,6 +9,7 @@ body {
 header {
   position: relative;
 }
+
 #title {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;

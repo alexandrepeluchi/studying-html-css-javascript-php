@@ -134,11 +134,11 @@ header {
 footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;
-    padding: 20px 0;
 }
 
 footer .container {
     position: relative;
+    padding: 20px 0;
 }
 
 .social {
@@ -159,6 +159,7 @@ footer .container {
 .social li {
     float: left;
     margin-left: 25px;
+    padding-top: 20px;
 }
 
 .social a[href*="facebook.com"] {
