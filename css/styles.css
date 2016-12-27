@@ -45,6 +45,14 @@ header {
     margin-left: 20px;
 }
 
+.options-menu a:hover {
+  color: #007DC6;
+}
+
+.options-menu a:active {
+  color: #867DC6;
+}
+
 .highlights {
     margin-top: 10px;
 }
