@@ -137,10 +137,14 @@ header {
 
 .news {
     float: left;
+    background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .best-sellers {
     float: right;
+    background: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 .panel li {
