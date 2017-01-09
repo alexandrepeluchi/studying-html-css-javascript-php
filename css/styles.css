@@ -162,6 +162,10 @@ header {
   transform: scale(1.2) rotate(-5deg);
 }
 
+.panel li:nth-child(2n):hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
 .panel h2 {
     font-size: 24px;
     font-weight: bold;
