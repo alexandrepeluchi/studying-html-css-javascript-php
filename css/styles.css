@@ -153,6 +153,7 @@ header {
     width: 140px;
     margin: 2px;
     padding-bottom: 10px;
+    transition: 0.7s;
 }
 
 .panel li:hover {
