@@ -1,3 +1,42 @@
 .container {
-  width: 96%;
+    width: 96%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h1 img {
+    max-width: 50%;
+}
+
+.bag {
+    display: none;
+}
+
+.options-menu {
+    position: static;
+    text-align: center;
+}
+
+.options-menu ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.search, .departments-menu, .highlights img {
+    margin-right: 0;
+    width: 100%;
+}
+
+.panel {
+    width: auto;
+}
+
+.panel li {
+    width: 30%;
+}
+
+.panel img {
+    width: 100%;
 }
