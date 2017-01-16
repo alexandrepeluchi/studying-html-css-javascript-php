@@ -31,8 +31,8 @@
       <h1 id="title">The Mirror Fashion</h1>
       <p>
         The Mirror Fashion The <strong>Mirror Fashion</strong> is the largest e-commerce
-        in the fashion segment worldwide. Founded in 1932, it has branches in 124 countries
-        and is the market leader with more than 90% interest in 118 of them.
+        in the fashion segment worldwide. Founded <?php print date("Y") - 1932; ?> years ago, it has 
+        branches in 124 countries and is the market leader with more than 90% interest in 118 of them.
       </p>
       <p>
         Our distribution center is in <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho</a>,
